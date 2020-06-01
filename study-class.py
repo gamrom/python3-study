@@ -19,7 +19,7 @@ class DefenceUnit(Unit):
     def defence(self, power):
         print(f"{power}만큼 방어를 합니다")
 
-# print(DefenceUnit("디펜스유닛1", 100, 10).defence(30))
+
 class SpecialUnit(AttackUnit, DefenceUnit):
     def __init__(self, name, hp, damage, guard):
         AttackUnit.__init__(self, name, hp, damage)
