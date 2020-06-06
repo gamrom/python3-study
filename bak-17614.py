@@ -31,7 +31,6 @@
 # print(count)
 
 
-
 hi = input()
 st = ''
 for i in range(1, int(hi)+1):
